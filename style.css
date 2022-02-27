@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+    /* Primary */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* Neutral  */
+    --Very-dark-blue-body: hsl(217, 54%, 11%);
+    --Very-dark-blue-box: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(213.8, 100%, 96.9%);
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+    max-height: calc(100vh - 1px);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    font-family: "Outfit", "sans-serif";
+    background-color: var(--Very-dark-blue-body);
+    font-family: "Outfit", "sans-serif";
+    background-color: var(--Very-dark-blue-body);
+}
+
+
+/* Container */
+
+.main {
+    background-color: var(--Very-dark-blue-box);
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: auto;
+    -webkit-box-shadow: 0px 1px 100px 6px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 1px 100px 6px rgba(0, 0, 0, 0.55);
+    box-shadow: 0px 1px 100px 6px rgba(0, 0, 0, 0.55);
+}
+
+
+/* Image */
+
+#equimg {
+    width: 20rem;
+    border-radius: .5rem;
+}
+
+
+/* .quat img,
+.quat p,
+.time img,
+.time p {
+    display: inline-block;
+}
+
+.quat p {
+    font-size: 1rem;
+    color: var(--Cyan);
+}
+
+.quat img {
+    margin: 0rem .5rem 0 0;
+    padding-top: rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.quat,
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.stats img {
+    margin-right: .5rem;
+}
+
+.quat span {
+    color: var(--Cyan);
+}
+
+.time span {
+    color: var(--Soft-blue);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0 1.5rem 0;
+}
+
+hr {
+    background-color: var(--Very-dark-blue-line);
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--White);
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 20rem;
+    color: var(--Soft-blue);
+}
+
+.creation {
+    display: flex;
+    /* margin: .5rem 0 0 0; */
+    align-items: center;
+}
+
+.creation p {
+    padding-right: 1rem;
+}
+
+.creation img {
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    border-radius: 50%;
+    /* margin-top: .5rem; */
+    margin-right: 1rem;
+}
+
+#white {
+    color: var(--White);
+}
+
+.attribution {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
