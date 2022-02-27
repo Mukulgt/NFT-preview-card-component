@@ -49,30 +49,6 @@ body {
     border-radius: .5rem;
 }
 
-
-/* .quat img,
-.quat p,
-.time img,
-.time p {
-    display: inline-block;
-}
-
-.quat p {
-    font-size: 1rem;
-    color: var(--Cyan);
-}
-
-.quat img {
-    margin: 0rem .5rem 0 0;
-    padding-top: rem;
-}
-
-.stats {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 .quat,
 .time {
     display: flex;
@@ -141,6 +117,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     font-size: 11px;
+    color: var(--White);
 }
 
 .attribution a {
